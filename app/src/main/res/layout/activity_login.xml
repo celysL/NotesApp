@@ -32,36 +32,74 @@
             android:textStyle="bold"
             android:style="@style/TextStyle"/>
     </LinearLayout>
-    <FrameLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="304dp"
+        android:gravity="center"
+        >
 
         <ImageView
-            android:id="@id/image_login"
+            android:id="@+id/image_login"
             android:layout_width="302dp"
             android:layout_height="319dp"
             android:scaleType="centerCrop"
             android:src="@drawable/login1" />
 
+        <ImageView
+            android:id="@+id/email_icon"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="73dp"
+            android:layout_marginTop="114dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="4dp"
+            android:src="@drawable/email_icon"
+            android:style="@style/TextStyle" />
 
-        <TextView
-            android:id="@+id/tv_email"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Email"
+        <EditText
+            android:id="@+id/ed_email"
+            android:layout_width="181dp"
+            android:layout_height="48dp"
+            android:layout_alignBottom="@id/email_icon"
+            android:layout_marginLeft="0dp"
+            android:layout_toEndOf="@+id/email_icon"
+            android:hint="        email"
+            android:paddingLeft="0dp"
             android:textColor="#000000"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/tv_password"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Password"
-            android:textSize="24sp"
+        <ImageView
+            android:id="@+id/password_icon"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignTop="@id/email_icon"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="101dp"
+            android:layout_marginTop="50dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="4dp"
+            android:src="@drawable/password_icon"
+            android:style="@style/TextStyle" />
+
+        <EditText
+            android:id="@+id/ed_password"
+            android:layout_width="181dp"
+            android:layout_height="48dp"
+            android:layout_alignBottom="@id/password_icon"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@+id/password_icon"
+            android:hint="        password"
+            android:padding="0dp"
             android:textColor="#000000"
-        />
-    </FrameLayout>
+            android:textSize="18sp" />
 
+    </RelativeLayout>
 </LinearLayout>
