@@ -17,8 +17,8 @@
         >
 
         <ImageView
-        android:layout_width="70dp"
-        android:layout_height="60dp"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
         android:src="@drawable/login_notes_image"
         android:layout_gravity="center"
         />
@@ -27,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Login"
-            android:textSize="35sp"
+            android:textSize="30sp"
             android:textStyle="bold"
             android:style="@style/TextStyle"/>
 
@@ -42,7 +42,9 @@
         <ImageView
             android:id="@+id/image_login"
             android:layout_width="302dp"
-            android:layout_height="319dp"
+            android:layout_height="300dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="2dp"
             android:scaleType="centerCrop"
             android:src="@drawable/login1" />
 
@@ -103,6 +105,12 @@
             android:textSize="18sp" />
 
     </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Login" />
 
 
 </LinearLayout>
