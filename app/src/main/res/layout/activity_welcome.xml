@@ -50,7 +50,7 @@
         android:layout_marginLeft="150dp"
         android:layout_marginRight="150dp"
         android:textSize="20sp"
-        android:style="@style/TextStyle"
+        style="@style/TextStyle"
         android:text="@string/btn_get_started"
         android:background="@drawable/getstarted_button"
         android:textAllCaps="false"
