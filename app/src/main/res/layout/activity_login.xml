@@ -47,8 +47,8 @@
 
         <ImageView
             android:id="@+id/email_icon"
-            android:layout_width="22dp"
-            android:layout_height="22dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginStart="50dp"
@@ -61,7 +61,7 @@
 
         <EditText
             android:id="@+id/ed_email"
-            android:layout_width="181dp"
+            android:layout_width="175dp"
             android:layout_height="48dp"
             android:layout_alignBottom="@id/email_icon"
             android:layout_marginLeft="0dp"
