@@ -1,6 +1,3 @@
 <resources>
-    <string name="app_name">Welcome to Little Notes!</string>
-    <string name="btn_login">Log In</string>
-    <string name="btn_get_started">Get Started</string>
-    <string name="Login">Login</string>
+    <string name="app_name">NotesApp</string>
 </resources>
